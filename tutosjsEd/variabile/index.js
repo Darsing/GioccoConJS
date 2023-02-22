@@ -1,33 +1,3 @@
-// const oggi = new Date();
-// const options = [
-//     {
-//         year: 'numeric',
-//         month: '2-digit',
-//         weekday: 'long',
-//         day: 'numeric',
-//     },
-//     {
-//        hour: '2-digit',
-//        minute: '2-digit',
-//        second: '2-digit',
-//        hourse12: true, 
-//     },
-//     {
-//         year: 'numeric',
-//         month: 'long',
-//         weekday: 'short',
-//         day: 'numeric',
-//     },
-// ]
-// //console.log(oggi.toLocaleString(undefined, options[1]));
-
-// options.forEach(option => {
-//     const dataFormattata =oggi.toLocaleString(undefined,option );
-//     const element = document.createElement('h2');
-//     const test = document.createTextNode(dataFormattata);
-//     element.appendChild(test);
-//     document.querySelector('body').appendChild(element)
-// }); 
 /*
 //let citta= 'Milano ,Torino ,Roma ,Venezia,Napoli';
 let data =['Milano','Torino','Roma','Venezia', 'Napoli'];
@@ -58,33 +28,6 @@ console.log(data);
 //     }
 // }
 
-
-// let arr = [];
-// const numeriElementi = 10;
-// const max = 100;
-// let somma = 0;
-// for (i = 0; i < numeriElementi; i++) {
-//     arr.push(Math.floor(Math.random() * max));
-//     somma += arr[i]; 
-// }
-
-// console.log(arr + "\n la somma: " + somma);
-
-// const btn =document.querySelector('#btn');
-// const data1 = document.getElementById('data1');
-// const data2 = document.getElementById('data2');
-
-// const calcola = ()=>{
-//    const date1Milli= new Date(data1.value).getTime();
-//    const date2Milli= new Date(data2.value).getTime();
-   
-//    if(date2Milli > date1Milli){
-//     const diff = date2Milli - date1Milli;
-//     console.log(diff/(1000*60*60*24));
-//    }
-// }
-
-// btn.addEventListener('click', calcola);
 
 //operatote ternaire
 // let numero =40;

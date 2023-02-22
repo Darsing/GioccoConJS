@@ -1,0 +1,37 @@
+{
+    "nome":"4A",
+    "numeroAlunni": 21,
+    "scuola":"Scuola Elementare Miao",
+    "SuoalaSabato": false,
+    "insegnanti": [
+        {
+            "nome":"Anna",
+            "cognome":"Blu",
+            "materieInsegnante":["Storia","Italiano","Geografia"]
+        },
+        {
+            "nome":"Ludovica",
+            "cognome":"Rossi",
+            "materieInsegnante":["Matematica","Geografia"]
+        }
+    ],
+    "alunni": [
+        {
+            "nome":"Marco",
+            "cognome":"Querty"
+        },
+        {
+            "nome":"Pamela",
+            "cognome":"Boston"
+        },
+        {
+            "nome":"Maria",
+            "cognome":"Gailli"
+        }
+    ],
+    "orari":{
+        "mattina":["Storia","Matematica"],
+        "pomeriggio":["Italiano","Geografia"]
+    }
+}
+

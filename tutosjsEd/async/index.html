@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>via</button>
+
+
+
+    <script>
+        const btn = document.querySelector('button');
+        const p = document.createElement('p');
+
+        //setTimeout()
+        /*
+                let prova = setTimeout(saluta, 5000);
+                btn.addEventListener('click',()=>{
+                    clearTimeout(prova);
+                })
+                     
+                function saluta(){
+                    alert('ciao sono in timeout');
+                };
+        */
+
+        //setIntervale
+        /*
+                function displayTime() {
+                    let date = new Date();
+                    let time = date.toLocaleTimeString();
+                    p.textContent = time;
+                    document.body.appendChild(p);
+                }
+        
+                const createClock = setInterval(displayTime, 1000);
+                btn.addEventListener('click', () => {
+                    clearInterval(createClock);
+                })
+        
+        */
+        //promise
+        //dentro una funzione 
+        async function myFecth() {
+            let response = await fetch('per.jpg');
+            let data = await response.blob();
+
+            let objectURL = URL.createObjectURL(data);
+            let image = document.createElement('img');
+            image.src = objectURL;
+            document.body.appendChild(image);
+        }
+        myFecth().catch(e => {
+            console.log('there has been a problem with your fecth operation' + e.message);
+        })
+
+
+        //fuori di una funzione
+/*
+        fetch('per.jpg')
+            .then(response => {
+                return response.blob();
+            })
+            .then(data => {
+                let objectURL = URL.createObjectURL(data);
+                let image = document.createElement('img');
+                image.src = objectURL;
+                document.body.appendChild(image);
+            })
+            .catch(e => {
+                console.log('there has been a problem with your fecth operation' + e.message);
+            })
+*/
+
+    </script>
+</body>
+
+</html>
