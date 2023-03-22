@@ -1,0 +1,11 @@
+
+{
+    "id":1020,
+    "nome":"Walter",
+    "patentato":true,
+    "coloriPreferiti":["blu","nero"],
+    "residenza":{
+        "via":"roma",
+        "civico":20897
+    }
+}

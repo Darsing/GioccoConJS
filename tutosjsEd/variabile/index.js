@@ -143,7 +143,7 @@ console.log(persona);
 //js object per il principiante(oop=programazione orientato agli oggetti)
 //costruttore
 
-/*
+
 function Persona(nome,cognome,eta,genere,interessi) {
    this.nome=nome;
    this.cognome=cognome;
@@ -169,7 +169,7 @@ persona1.saluta();
 persona2.saluta();
 persona1.bio();
 persona2.bio();
-*/
+
 
 //ereditarieta
 
