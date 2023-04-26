@@ -17,6 +17,7 @@ btn.addEventListener('click',()=>{
     p.saluta();
 })
 */
+
 /*
 const persona = {
     nome :"walter",
@@ -24,10 +25,11 @@ const persona = {
     colori:["rosso","nero"],
     interessi:null,
     saluta: function(){
-        console.log("ciao");
+        console.log("ciao ");
     }
 }
 */
+
 /*
 const persone =`[{"id":123,"nome":"Walter"},{"id":124,"nome":"Donatella"}]`;
 const personeJson= JSON.parse(persone);

@@ -1,0 +1,14 @@
+{
+    "response": "ok",
+    "data": [
+        {
+            "id":34,
+            "nome":"Luca"
+        },
+        {
+            "id":134,
+            "nome":"Maria"
+        }
+    ]
+
+}
