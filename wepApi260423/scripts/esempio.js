@@ -1,5 +1,8 @@
-const url ='./data/data.json'
-const req = new XMLHttpRequest();
+const url = './data/data.json';
+
+getApiData(url);
+function getApiData(url) {
+    const req = new XMLHttpRequest();
     req.open('GET', url);
     req.responseType = 'json';
     req.send();
@@ -7,7 +10,8 @@ const req = new XMLHttpRequest();
         let data = req.response;
         console.log(data);
 
-        for(p of data.data){
+        for (p of data.data) {
             console.log(p.nome);
         }
     }
+}
